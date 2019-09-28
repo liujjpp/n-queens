@@ -14,7 +14,7 @@
 using namespace std;
 
 int queen[N], randCol[N], mainDiag[N * 2] = {0}, backDiag[N * 2] = {0};
-int diagConflict = 0; // 对角线上的冲突数
+int diagConflict = 0;
 
 void qs_init(int);
 void qs_search(int);
